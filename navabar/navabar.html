@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        
+
+        <title>
+            navabr
+        </title>
+        <style>
+            body{
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif; 
+            }
+            .navbar{
+                background-color:  #454140;
+                padding: 10px; 
+                display: flex;
+            }
+            .navbar .navbar-title{
+                color: #fff;
+            }
+            .navbar ul{
+                /* overflow: auto;` */
+                margin: 0;
+                position: relative;
+                margin-left: auto;
+            }
+            .navbar li{
+                display: inline;
+                list-style: none;
+                margin: 3px 3px;
+                float: left;
+             
+               margin-top: 15px ;
+               
+
+            }
+            .navbar li a{
+                padding: 3px 3px;
+                text-decoration: none;
+                color: white;
+                
+           
+            }
+            ul input{
+            padding: 4px 15px ;
+            margin-left: 3px;
+            border-radius: 4px;
+            
+            
+            }
+           .submit{
+            background-color: aqua;
+            padding: 5px;
+            border-radius: 10px;
+            width: 80px;
+            margin: 0 auto;
+            margin-top: -2px;
+           }
+           .submit:hover{
+            background-color: red;
+            transition: 0.5s ease-in;
+
+           }
+           .submit:visited{
+            background-color: black;
+           }
+           img{
+            width: 35px;
+           }
+
+
+          
+        </style>
+    </head>
+    <body>
+        <div class="container-fluida">
+            <header>
+                <nav class="navbar">
+                    <span class="navbar-title"><img src="chrome.svg" alt=""></span>
+
+                    <ul>
+                        
+                        <li> <a href="#"> Home</a>  </li>
+                        <li> <a href="#">About Us </a>  </li>
+                        <li> <a href="#">Login in </a>  </li>
+                        <li> <a href="#">  Sign Up</a> </li>    
+                        <li><input type="text" name="search" id="search" placeholder="search"></li> 
+                        <li>
+                        <li>
+                        <input class="submit" type="submit" value="submit" name="sumbit">      
+                         </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </body>
+</html>

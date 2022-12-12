@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+         <title>Flexbox</title>
+         <style>
+            *{
+                box-sizing: border-box;
+            }
+            .container{
+                height: 400px;
+                border: 2px solid black;
+                display: flex;
+                /* flex-direction:column  ; */
+                /* flex-wrap: wrap-reverse; */
+                gap: 10px;
+                /* row-gap: 20px;
+                column-gap: 90px;  
+                */
+                flex-flow: row; 
+                justify-content: center;   
+                align-items: flex-start;
+                align-content:space-evenly;
+                                                                                                        ```````````````````````` 
+            }
+            .box{
+              border: 2px solid red;
+              margin: 10px  0;
+              width: 90px;
+              border-radius: 5  px;
+              flex-basis: 25%;
+            }
+            #box-1{
+                /* order: 1;
+                flex-grow:1;
+                flex-shrink: 10; */
+                /* flex-basis: 100px; */
+            }
+            #box-2{
+                /* order: 1;
+                flex-grow: 2  ; */
+            }
+         </style>
+    </head>
+    <body>
+        <!-- .container>.box#box-${box-$}*8 AMMET -->
+        <div class="container">
+            <div class="box" id="box-1">box-1</div>
+            <div class="box" id="box-2">box-2</div>
+            <div class="box" id="box-3">box-3</div>
+            <div class="box" id="box-4">box-4</div>
+            <div class="box" id="box-5">box-5</div>
+            <div class="box" id="box-6">box-6</div>
+            <div class="box" id="box-7">box-7</div>
+            <div class="box" id="box-8">box-8</div>
+        </div>
+        <code>
+            a = 10;
+            b =10;
+            c = a + b;
+            x`x
+        </code>
+
+    </body>
+</html>
